@@ -30,6 +30,7 @@ class RecipeCard extends StatelessWidget {
       );
     }
 
+    print(recipe);
     Padding _buildTitleSection() {
       return Padding(
         padding: EdgeInsets.all(15.0),
@@ -59,6 +60,8 @@ class RecipeCard extends StatelessWidget {
       );
     }
 
+    print(recipe.name);
+    print(recipe.imageURL);
     return GestureDetector(
       onTap: () => print("Tapped!"),
       child: Padding(
