@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "510882025478",
+    "firebase_url": "https://recipes-2577a.firebaseio.com",
+    "project_id": "recipes-2577a",
+    "storage_bucket": "recipes-2577a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510882025478:android:d0085119372fba81",
+        "android_client_info": {
+          "package_name": "org.on40.recipesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510882025478-bb67j8raldmp7nvdadjerfs8vh4fshu2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.on40.recipesapp",
+            "certificate_hash": "0d6f97ab6e2aedca1ddc156fc65a10f6a48bc426"
+          }
+        },
+        {
+          "client_id": "510882025478-v47b2iqlbcnhocl4juq5jm75joamochk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA2fDcW-OBKtimk2-4ipX92mdPUBqinTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510882025478-v47b2iqlbcnhocl4juq5jm75joamochk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

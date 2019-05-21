@@ -4,7 +4,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 Future<GoogleSignInAccount> getSignedInAccount(
     GoogleSignIn googleSignIn) async {
   // Is the user already signed in?
+
   GoogleSignInAccount account = googleSignIn.currentUser;
+  print(account);
   // Try to sign in the previous user:
   if (account == null) {
     account = await googleSignIn.signInSilently();
@@ -12,11 +14,13 @@ Future<GoogleSignInAccount> getSignedInAccount(
   return account;
 }
 
+
 Future<FirebaseUser> signIntoFirebase(
     GoogleSignInAccount googleSignInAccount) async {
   FirebaseAuth _auth = FirebaseAuth.instance;
   GoogleSignInAuthentication googleAuth =
       await googleSignInAccount.authentication;
+  print(googleAuth);
   return await _auth.signInWithGoogle(
     accessToken: googleAuth.accessToken,
     idToken: googleAuth.idToken,
